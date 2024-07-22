@@ -1,6 +1,6 @@
 # BioBB community workflows
 
-Welcome to the community repository for the **BioExcel Building Blocks Workflows**. In this repo there are all the workflows developed for the community members. If you want to take a look to the BioBB **demonstration workflows**, please visit the [**BioExcel Building Blocks Workflows**](https://github.com/bioexcel/biobb_workflows/) repository.
+Welcome to the community repository for the **BioExcel Building Blocks Workflows**. In this repo there are all the workflows developed by the community members. If you want to take a look to the BioBB **demonstration workflows**, please visit the [**BioExcel Building Blocks Workflows**](https://github.com/bioexcel/biobb_workflows/) repository.
 
 ## How to contribute
 
@@ -38,6 +38,9 @@ Where:
 
 It's the name of your workflow starting by the prefix _biobb_wf_\_ (ie _biobb_wf_md_setup_)
 
+#### README.md
+
+It's a copy of the [README-template.md](README-template.md) file that can be found in this same repository. Add here all the information needed in order to **install** and **run** the workflow.
 
 #### workflow_name_subfolder
 
@@ -46,10 +49,6 @@ It's the name of your workflow starting by the prefix _biobb_wf_\_ (ie _biobb_wf
 This folder must be a [GitHub submodule](https://gist.github.com/gitaarik/8735255) for the sake of improving the maintenance of this repository. For creating a new submodule from your own repo, please type the following instruction:
 
       git submodule add git@github.com:path_to/submodule.git <workflow_name_subfolder>
-
-#### README.md
-
-It's a copy of the [README-template.md](README-template.md) file that can be found in this same repository. Add here all the information needed in order to **install** and **run** the workflow.
 
 ### Commit and Push
 
