@@ -28,9 +28,9 @@ It's recommended to name the new branch after the **new workflow** name (ie _bio
 
 Now, copy **your workflow** into the repository. Please use the following **file structure**:
 
-* workflow_name_main_folder
-  * README.md
-  * workflow_name_subfolder
+📂 workflow_name_main_folder
+- 📖 README.md
+- 📁 workflow_name_subfolder
 
 Where:
 
